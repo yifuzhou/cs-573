@@ -207,12 +207,12 @@ public class NaiveBayesClassifier {
 		}
 	}
 	public static void main(String[] args) {
-		String vocabulary_txt = args[1];
-		String map_csv = args[2];
-		String training_label_csv = args[3];
-		String training_data_csv = args[4];
-		String testing_label_csv = args[5];
-		String testing_data_csv = args[6];
+		String vocabulary_txt = args[0];
+		String map_csv = args[1];
+		String training_label_csv = args[2];
+		String training_data_csv = args[3];
+		String testing_label_csv = args[4];
+		String testing_data_csv = args[5];
 		
 		String fileRoot = "/Users/Ef/Desktop/ComS 573/20newsgroups/";
 		int[] numDocuPerCateg = new int[20];
