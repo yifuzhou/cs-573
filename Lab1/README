@@ -1,8 +1,11 @@
-Hello grader,
+Naive Bayes Classifier for Text Classification
 Just input:
 
 javac NaiveBayes vocabulary.txt map.csv train_label.csv train_data.csv test_label.csv test_data.csv
 
 If the data files are in somewhere else, just write the root path in my code, I have a type of: String fileRoot = "" in my code, just add the root path there, thanks!
 
-Yifu
+
+Lab description:
+
+see lab1.pdf
